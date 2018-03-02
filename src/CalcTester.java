@@ -6,7 +6,7 @@ public class CalcTester {
 	Calc calc;
 	
 	// ============================================= Subtraction
-	/*@Test
+	@Test
 	public void negativeSecondValueSubtraction() {
 		int firstVal = 9;
 		int secondVal = -5;
@@ -28,9 +28,10 @@ public class CalcTester {
 		int secondVal = 0;
 		int result = Calc.substract(firstVal, secondVal);
 		assertTrue("Incorrect subtraction for a positive second integer", result == firstVal);
-	}*/
+	}
 
 	// ============================================= Multiplication
+	/*
 	@Test
 	public void bothPosMultiplication() {
 		int firstVal = 1;
@@ -61,10 +62,10 @@ public class CalcTester {
 		int secondVal = 5;
 		int result = Calc.multiply(firstVal, secondVal);
 		assertTrue("Incorrect multiplication of zero and any integer", result == 0);
-	}
+	}*/
 
 	// ============================================= Division
-	/*@Test
+	@Test
 	public void bothPosDivision() {
 		int firstVal = 1;
 		int secondVal = 4;
@@ -101,5 +102,5 @@ public class CalcTester {
 		int firstVal = 3; 
 		int secondVal = 0;
 		double result = Calc.divide(firstVal, secondVal);
-	}*/
+	}
 }
