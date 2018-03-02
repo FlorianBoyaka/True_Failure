@@ -1,4 +1,4 @@
-// Authors: Florian Boyaka and Elinam Gbordzoe
+//Authors: Florian Boyaka and Elinam Gbordzoe
 
 public class Calc {
 	static public int add(int a, int b) {
@@ -7,7 +7,7 @@ public class Calc {
 
 	static public int substract(int a, int b) {
 		//return a - b;
-		return -a - b;
+		return b - a;
 	}
 
 	static public int multiply(int a, int b) {
