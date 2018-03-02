@@ -7,7 +7,7 @@ public class CalcTester {
 	@Test
 	public void calcFail() {
 		Calc c = new Calc();
-		assertTrue(c.add(1, 1)==2);
+		assertTrue(c.add(1, 1)==3);
 	}
 
 }
