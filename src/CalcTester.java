@@ -6,7 +6,7 @@ public class CalcTester {
 	Calc calc;
 	
 	// ============================================= Subtraction
-	@Test
+	/*@Test
 	public void negativeSecondValueSubtraction() {
 		int firstVal = 9;
 		int secondVal = -5;
@@ -29,7 +29,7 @@ public class CalcTester {
 		int result = Calc.substract(firstVal, secondVal);
 		assertTrue("Incorrect subtraction for a positive second integer", result == firstVal);
 	}
-
+*/
 	// ============================================= Multiplication
 	/*
 	@Test
